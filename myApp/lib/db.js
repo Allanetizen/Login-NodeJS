@@ -2,6 +2,7 @@ var mysql=require('mysql');
  var connection=mysql.createConnection({
    host:'localhost',
    user:'root',
+   port: 8081,
    password:'your password',
    database:'logsystem'
  });
